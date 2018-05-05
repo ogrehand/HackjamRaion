@@ -12,4 +12,9 @@ public class MainActivity extends AppCompatActivity {
 
         // this is comment asdsadasd
     }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
 }
